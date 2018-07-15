@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link id="test" rel="stylesheet" href="css/dashboard2.css">
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.1.0/dist/css/bootstrap.min.css">
+    <style>
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 darkslategray">
+                <img src="img/icon1.png" alt="">
+                <strong>Pro</strong>
+                <span>UI</span>
+            </div>
+            <div class="col-md-10 ghostwhite">
+                <div class="icon">
+                    <img src="img/menu.png" alt="">
+                </div>
+                <div class="settings">
+                    <img src="img/icon.png" alt="">
+                </div>
+            </div>
+            <input class="search" placeholder="Search..">
+            <div class="settingsmodal">
+                <div>
+                    <div class="settingsmodal1">
+                        <span>Header Style</span>
+                    </div>
+                    <div class="settingsmodal2">
+                        <button class="settingsbutton">
+                            <span>Light</span>
+                        </button>
+                        <button>
+                            <span>Dark</span>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <div class="settingsmodal1">
+                        <span>Page Style</span>
+                    </div>
+                    <div class="settingsmodal2">
+                        <button>
+                            <span>Default</span>
+                        </button>
+                        <button>
+                            <span>Alternative</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="share">
+                <img src="img/share.png" alt="">
+                <div class="four">4</div>
+            </div>
+            <div class="rigthpart">
+                <div class="avatar2">
+                    <img class="avatar" src="img/avatar2.jpg" alt="">
+                </div>
+                <img class="arrow" src="img/down-arrow.png" alt="">
+            </div>
+            <div class="openmodal">
+                <div class="openmodalhead">
+                    <span>Account</span>
+                </div>
+                <div class="middle-first">
+                    <ul>
+                        <li>
+                            <span>Updates</span>
+                            <div class="number">10</div>
+                            <img src="img/round-clock-at-nine-oclock-.png" alt="">
+                        </li>
+                        <li>
+                            <span>Messages</span>
+                            <div class="number">5</div>
+                            <img src="img/email.png" alt="">
+                        </li>
+                        <li>
+                            <span>Subscriptions</span>
+                            <div class="number">3</div>
+                            <img src="img/magnet.png" alt="">
+                        </li>
+                        <li>
+                            <span>FAQ</span>
+                            <div class="number">11</div>
+                            <img src="img/question-mark.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="middle-second">
+                    <ul>
+                        <li>
+                            <span>Profile</span>
+                            <img class="man-user" src="img/man-user.png" alt="">
+                        </li>
+                        <li>
+                            <span>
+                                Settings
+                            </span>
+                            <img class="cog" src="img/cog-wheel-silhouette.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="middle-last">
+                    <ul>
+                        <li>
+                            <span>Lock Account</span>
+                            <img class="man-user" src="img/lock.png" alt="">
+                        </li>
+                        <li>
+                            <span>
+                                Logout
+                            </span>
+                            <img class="cog" src="img/ban.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-activity">
+                    <span>Activity</span>
+                </div>
+                <div class="modal-activities">
+                    <div class="modal-activity1">
+                        <small>5 min ago</small>
+                        <br>
+                        <img src="img/like-button.png" alt="">
+                        <span> You had a new sale ($10)</span>
+                    </div>
+                    <div class="modal-activity2">
+                        <small>10 min ago</small>
+                        <br>
+                        <img src="img/up-arrow.png" alt="">
+                        <span> Upgraded to Pro plan</span>
+                    </div>
+                    <div class="modal-activity3">
+                        <small>3 hours ago</small>
+                        <br>
+                        <img src="img/exclamation1.png" alt="">
+                        <span> Running low on space</span>
+                        <strong>18GB</strong>
+                        <span class="activity-span">in use 2GB left</span>
+                    </div>
+                    <div class="modal-activity4">
+                        <small>Yesterday</small>
+                        <br>
+                        <img src="img/bugg.png" alt="">
+                        <span> New bug submitted</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chatui">
+                <div class="headpart">
+                    <strong>Chat</strong>
+                    <span>UI</span>
+                    <img src="img/chat.png" alt="">
+                </div>
+                <div class="userscontain">
+                    <div class="users">
+                        <div>
+                            <img src="img/avatar12.jpg" alt="">
+                            <div class="useronline1"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar15.jpg" alt="">
+                            <div class="useronline1"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar10.jpg" alt="">
+                            <div class="useronline1"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar4.jpg" alt="">
+                            <div class="useronline1"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar7.jpg" alt="">
+                            <div class="useronline2"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar9.jpg" alt="">
+                            <div class="useronline2"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar16.jpg" alt="">
+                            <div class="useronline3"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar1.jpg" alt="">
+                            <div class="useronline4"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar4.jpg" alt="">
+                            <div class="useronline4"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar3.jpg" alt="">
+                            <div class="useronline4"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar13.jpg" alt="">
+                            <div class="useronline4"></div>
+                        </div>
+                        <div>
+                            <img src="img/avatar5.jpg" alt="">
+                            <div class="useronline4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-activity">
+                    <strong>Activity</strong>
+                    <span>UI</span>
+                    <img src="img/earth-globe.png" alt="">
+                </div>
+                <div class="ui-activities">
+                    <div class="ui-activity1">
+                        <small>just now</small>
+                        <br>
+                        <img src="img/thumbs-up-hand-symbol.png" alt="">
+                        <span>Upgraded to Pro plan</span>
+                    </div>
+                    <div class="ui-activity2">
+                        <small>2 hours ago</small>
+                        <br>
+                        <img src="img/coin-stack (1).png" alt="">
+                        <span>You had a new sale</span>
+                    </div>
+                    <div class="ui-activity3">
+                        <small>3 hours ago</small>
+                        <br>
+                        <img src="img/plus-black-symbol.png" alt="">
+                        <span>
+                            <strong>John Doe</strong> would like to </span>
+                        <span class="activity-span"> become friends!</span>
+                        <div class="btncontain">
+                            <button class="acceptbtn">
+                                <img src="img/checkmark-for-verification.png" alt="">
+                                <h6>Accept</h6>
+                            </button>
+                            <button class="ignorebtn">
+                                <img src="img/cancel-music (1).png" alt="">
+                                <h6>Ignore</h6>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ui-activity4">
+                        <small>2 days ago</small>
+                        <br>
+                        <span> Running low on space</span>
+                        <br>
+                        <strong>18GB</strong>
+                        <span>in use 2GB left</span>
+                        <button class="upgradebtn">
+                            <img src="img/arrow-up.png" alt="">
+                            <h6>Upgrade Plan</h6>
+                        </button>
+                    </div>
+                </div>
+                <div class="ui-message">
+                    <strong>Messages</strong>
+                    <span>UI (5)</span>
+                    <img src="img/black-envelope.png" alt="">
+                </div>
+                <div class="ui-messages">
+                    <ul>
+                        <li>
+                            <span>Debra Stanley</span>
+                            <span class="span-bottom">New Follower</span>
+                            <small>just now</small>
+                        </li>
+                        <li>
+                            <span>Sarah Cole</span>
+                            <span class="span-bottom">Your subscription was
+                                <br> updated</span>
+                            <small>2 min ago</small>
+                        </li>
+                        <li>
+                            <span>Bryan Porter</span>
+                            <span class="span-bottom">A great opportunity</span>
+                            <small>10 min ago</small>
+                        </li>
+                        <li>
+                            <span>Joce Duncan</span>
+                            <span class="span-bottom">Account Activation</span>
+                            <small>30 min ago</small>
+                        </li>
+                        <li>
+                            <span>Henry Ellis</span>
+                            <span class="span-bottom">You reached 10.000 Followers!</span>
+                            <small>40 min ago</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="left col-md-2">
+                <div class="info">
+                    <img class="img" src="img/avatar2.jpg" alt="">
+                    <span>
+                        John Doe</span>
+                    <div class="icons">
+                        <img src="img/male.png" alt="">
+                        <img src="img/email-filled-closed-envelope.png" alt="">
+                        <img src="img/set.png" alt="">
+                        <img src="img/enter.png" alt="">
+                    </div>
+                </div>
+                <div class="colors">
+                    <div class="colorcontain">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
+                        <div class="color3"></div>
+                        <div class="color4"></div>
+                        <div class="color5"></div>
+                        <div class="color6"></div>
+                        <div class="color7"></div>
+                        <div class="color8"></div>
+                        <div class="color9"></div>
+                        <div class="color10"></div>
+                        <div class="color11"></div>
+                        <div class="color12"></div>
+                        <div class="color13"></div>
+                        <div class="color14"></div>
+                    </div>
+                </div>
+                <div class="dashkit">
+                    <ul>
+                        <li class="dashboard">
+                            <img src="img/stopwatch.png" alt="">
+                            <span>Dashboard</span>
+                        </li>
+                        <li class="dashboard2">
+                            <img src="img/leaf.png" alt="">
+                            <span>Dashboard 2</span>
+                        </li>
+                        <li>
+                            <img src="img/black-envelope.png" alt="">
+                            <span>Email Templates</span>
+                        </li>
+                        <li id="e-commerce">
+                            <img src="img/shopping-cart.png" alt="">
+                            <span>eCommerce</span>
+                            <img class="backarrow" src="img/back.png" alt="">
+                        </li>
+                        <ol id="ecommercecomponents">
+                            <li class="ecommercecomponent">
+                                <span>Dashboard</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Orders</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Order View</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Products</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Product Edit</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Customer View</span>
+                            </li>
+                        </ol>
+                    </ul>
+
+                </div>
+                <div class="widgetkit">
+                    <div class="head">
+                        <span>WIDGET KIT</span>
+                        <div class="imgcontain">
+                            <img src="img/lightbulb.png" alt="">
+                            <img src="img/icon2.png" alt="">
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <img src="img/stats.png" alt="">
+                            <span>Statistics</span>
+                        </li>
+                        <li class="social">
+                            <img src="img/share2.png" alt="">
+                            <span>Social</span>
+                        </li>
+                        <li>
+                            <img src="img/film-strip.png" alt="">
+                            <span>Media</span>
+                        </li>
+                        <li>
+                            <img src="img/link.png" alt="">
+                            <span>Links</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="designkit">
+                    <div class="head">
+                        <span>DESIGN KIT</span>
+                        <img src="img/icon2.png" alt="">
+                    </div>
+                    <ul>
+                        <li id="userinterface">
+                            <img src="img/medal.png" alt="">
+                            <span>
+                                User Interface</span>
+                            <img class="backarrow1" src="img/back.png" alt="">
+                        </li>
+                        <ol id="ecommercecomponents1">
+                            <li class="ecommercecomponent">
+                                <span>Grid&Blocks</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Draggable Blocks</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Typography</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Buttons & Dropdowns</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Navigation & More</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Horizontal Menu</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Progress & Loading</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Page Preloader</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Color Themes</span>
+                            </li>
+                        </ol>
+                        <li id="forms">
+                            <img src="img/notepad.png" alt="">
+                            <span>Forms</span>
+                            <img class="backarrow2" src="img/back.png" alt="">
+                        </li>
+                        <ol id="ecommercecomponents2">
+                            <li class="ecommercecomponent">
+                                <span>General</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Components</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Validation</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Wizard</span>
+                            </li>
+                        </ol>
+                        <li id="tables">
+                            <img src="img/table-selection-cell.png" alt="">
+                            <span>Tables</span>
+                            <img class="backarrow3" src="img/back.png" alt="">
+                        </li>
+                        <ol id="ecommercecomponents3">
+                            <li class="ecommercecomponent">
+                                <span>General</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Responsive</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Datatables</span>
+                            </li>
+                        </ol>
+                        <li id="icons">
+                            <img src="img/trophy-cup-silhouette.png" alt="">
+                            <span>Icon Sets</span>
+                            <img class="backarrow4" src="img/back.png" alt="">
+                        </li>
+                        <ol id="ecommercecomponents4">
+                            <li class="ecommercecomponent">
+                                <span>Font Awesome</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Glyphicons Pro</span>
+                            </li>
+                        </ol>
+                        <li id="layouts">
+                            <img src="img/four-thumbnails-visualization-button.png" alt="">
+                            <span>Page Layouts</span>
+                            <img class="backarrow5" src="img/back.png" alt="">
+                        </li>
+                        <ol id="ecommercecomponents5">
+                            <li class="ecommercecomponent">
+                                <span>Static</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Static + Fixed Footer </span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Fixed Top Header</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Fixed Top Header + Footer</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Fixed Bottom Header</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Fixed Bottom Header + Footer</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Mini Main Sidebar</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Partial Main Sidebar</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Visible Main Sidebar</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Partial Alternative Sidebar</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Visible Alternative Sidebar</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>No Sidebars</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Both Sidebars Partial</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Animated Sidebar Transitions</span>
+                            </li>
+                        </ol>
+                    </ul>
+                </div>
+                <div class="developkit">
+                    <div class="head">
+                        <span>DEVELOP KIT</span>
+                        <img src="img/icon2.png" alt="">
+                    </div>
+                    <ul>
+                        <li id="pages">
+                            <img src="img/artistic-brush.png" alt="">
+                            <span>Ready Pages</span>
+                            <img class="backarrow6" src="img/back.png" alt="">
+                        </li>
+                        <ol id="ecommercecomponents6">
+                            <li id="errorlist" class="ecommercecomponent">
+                                <span>Errors</span>
+                                <img class="backarrow7" src="img/back.png" alt="">
+                                <ul id="errors">
+                                    <li>
+                                        <span>400</span>
+                                    </li>
+                                    <li>
+                                        <span>401</span>
+                                    </li>
+                                    <li>
+                                        <span>403</span>
+                                    </li>
+                                    <li>
+                                        <span>404</span>
+                                    </li>
+                                    <li>
+                                        <span>500</span>
+                                    </li>
+                                    <li>
+                                        <span>503</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="cmp1" class="ecommercecomponent">
+                                <span>Get Started</span>
+                                <img class="backarrow9" src="img/back.png" alt="">
+                                <ul id="getstarted">
+                                    <li>
+                                        <span>Blank</span>
+                                    </li>
+                                    <li>
+                                        <span>Blank Alternative</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="cmp2" class="ecommercecomponent">
+                                <span>Search Results (4)</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Article</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>User Profile</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Contacts</span>
+                            </li>
+                            <li id="cmp3" class="ecommercecomponent">
+                                <span>e-Learning</span>
+                                <img class="backarrow10" src="img/back.png" alt="">
+                                <ul id="elearning">
+                                    <li>
+                                        <span>Courses</span>
+                                    </li>
+                                    <li>
+                                        <span>Course - Lessons</span>
+                                    </li>
+                                    <li>
+                                        <span>Course - Lesson Page</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="cmp4" class="ecommercecomponent">
+                                <span>Message Center</span>
+                                <img class="backarrow11" src="img/back.png" alt="">
+                                <ul id="messages">
+                                    <li>
+                                        <span>Inbox</span>
+                                    </li>
+                                    <li>
+                                        <span>Compose Message</span>
+                                    </li>
+                                    <li>
+                                        <span>View Message</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="cmp5" class="ecommercecomponent">
+                                <span>Chat</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Timeline</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Files</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Tickets</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Bug Tracker</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Tasks</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>FAQ</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Pricing Tables</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Invoice</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Forum (3)</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Coming Soon</span>
+                            </li>
+                            <li id="cmp6" class="ecommercecomponent">
+                                <span>Login, Register & Lock</span>
+                                <img class="backarrow12" src="img/back.png" alt="">
+                                <ul id="login">
+                                    <li>
+                                        <span>Login</span>
+                                    </li>
+                                    <li>
+                                        <span>Login (Full Backgrond)</span>
+                                    </li>
+                                    <li>
+                                        <span>Login 2</span>
+                                    </li>
+                                    <li>
+                                        <span>Password Reminder</span>
+                                    </li>
+                                    <li>
+                                        <span>Password Reminder 2</span>
+                                    </li>
+                                    <li>
+                                        <span>Register</span>
+                                    </li>
+                                    <li>
+                                        <span>Register 2</span>
+                                    </li>
+                                    <li>
+                                        <span>Lock Screen</span>
+                                    </li>
+                                    <li>
+                                        <span>Lock Screen 2</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                        <li id="components">
+                            <img src="img/tool.png  " alt="">
+                            <span>Components</span>
+                            <img class="backarrow8" src="img/back.png" alt="">
+                        </li>
+                        <ol id="ecommercecomponents7">
+                            <li id="cmp7" class="ecommercecomponent">
+                                <span>3 Level Menu</span>
+                                <img class="backarrow13" src="img/back.png" alt="">
+                                <ul id="levels">
+                                    <li>
+                                        <span>Link 1</span>
+                                    </li>
+                                    <li>
+                                        <span>Link 2</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="cmp8" class="ecommercecomponent">
+                                <span>Maps</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Charts</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Gallery</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Carousel</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Calendar</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>CSS3 Animations</span>
+                            </li>
+                            <li class="ecommercecomponent">
+                                <span>Syntax Highlighting</span>
+                            </li>
+                        </ol>
+                    </ul>
+                </div>
+                <div class="activity">
+                    <div class="head">
+                        <span>ACTIVITY</span>
+                        <img src="img/reload.png" alt="">
+                    </div>
+                    <div class="activities">
+                        <div class="activity1">
+                            <small>5 min ago</small>
+                            <br>
+                            <img src="img/thumbs-up-hand-symbol.png" alt="">
+                            <span> You had a new sale ($10)</span>
+                        </div>
+                        <div class="activity2">
+                            <small>10 min ago</small>
+                            <br>
+                            <img src="img/arrow-up.png" alt="">
+                            <span> Upgraded to Pro plan</span>
+                        </div>
+                        <div class="activity3">
+                            <small>3 hours ago</small>
+                            <br>
+                            <img src="img/exclamation-sign.png" alt="">
+                            <span> Running low on space</span>
+                            <strong>18GB</strong>
+                            <span class="activity-span">in use 2GB left</span>
+                        </div>
+                        <div class="activity4">
+                            <small>Yesterday</small>
+                            <br>
+                            <img src="img/bug.png" alt="">
+                            <span> New bug submitted</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right1 col-md-10">
+                <div class="wrapper">
+                    <div>
+                        <img src="img/home.png" alt="">
+                        <h6>Home</h6>
+                    </div>
+                    <div>
+                        <img src="img/growing-bar-chart.png" alt="">
+                        <h6>Sales</h6>
+                    </div>
+                    <div>
+                        <img src="img/briefcase.png" alt="">
+                        <h6>Projects</h6>
+                    </div>
+                    <div>
+                        <img src="img/hd.png" alt="">
+                        <h6>Movies</h6>
+                    </div>
+                    <div>
+                        <img src="img/musicnote.png" alt="">
+                        <h6>Music</h6>
+                    </div>
+                    <div>
+                        <img src="img/cubes-stack.png" alt="">
+                        <h6>Apps</h6>
+                    </div>
+                    <div>
+                        <img src="img/writing.png" alt="">
+                        <h6>Profile</h6>
+                    </div>
+                    <div>
+                        <img src="img/setting-gears.png" alt="">
+                        <h6>Settings</h6>
+                    </div>
+                </div>
+                <div class="row main1">
+                    <div class="grid-middle1">
+                        <div class="middle2">
+                            <div class="webserver">
+                                <h2>
+                                    <strong>Web</strong> Server #1</h2>
+                                <div class="btncollect">
+                                    <button class="percents">35%</button>
+                                    <button class="load">CPU Load</button>
+                                </div>
+                            </div>
+                            <div class="chartpart">
+                                <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                            </div>
+                            <div class="salescharts">
+                                <div class="sale-head">
+                                    <h2>
+                                        <strong>Sales</strong> This Week</h2>
+                                    <button>
+                                        <img src="img/drop-down-arrow.png" alt="">
+                                    </button>
+                                </div>
+                                <div class="sale-middle">
+                                    <div class="wptheme">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <div class="webapp">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <div class="iconset">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="sale-foot">
+                                    <div>
+                                        <h2>WP Theme</h2>
+                                    </div>
+                                    <div>
+                                        <h2>Web App</h2>
+                                    </div>
+                                    <div>
+                                        <h2>Icon Set</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earningcharts">
+                                <div class="earnings-head">
+                                    <h2>
+                                        <strong>Earnings</strong> This Week</h2>
+                                    <button>
+                                        <img src="img/drop-down-arrow.png" alt="">
+                                    </button>
+                                </div>
+                                <div class="earnings-middle">
+                                    <div>
+                                        <img src="img/Screenshot_1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="img/Screenshot_2.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="img/Screenshot_3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="earnings-foot">
+                                    <div>
+                                        <h2>WP Theme</h2>
+                                    </div>
+                                    <div>
+                                        <h2>Web App</h2>
+                                    </div>
+                                    <div>
+                                        <h2>Icon Set</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quickpost">
+                                <div class="quickpost-head">
+                                    <h2>
+                                        <strong>Quick</strong> Post</h2>
+                                    <button>
+                                        <img src="img/pencil3.png" alt="">
+                                    </button>
+                                </div>
+                                <div class="input-part">
+                                    <div>
+                                        <input type="text" class="form1-control" placeholder="Enter a title..">
+                                    </div>
+                                    <div>
+                                        <input type="text" name="" class="form1-control" id="">
+                                    </div>
+                                </div>
+                                <div class="tagcontain">
+                                    <div>
+                                        <span>tutorial</span>
+                                        <img src="img/close-button (1).png" alt="">
+                                    </div>
+                                    <div>
+                                        <span>learn</span>
+                                        <img src="img/close-button (1).png" alt="">
+                                    </div>
+                                    <div>
+                                        <span>javascript</span>
+                                        <img src="img/close-button (1).png" alt="">
+                                    </div>
+                                </div>
+                                <div class="taginfo">
+                                    <span> add a tag</span>
+                                </div>
+                                <div class="quickpost-foot">
+                                    <textarea name="" id="" placeholder="Enter content.." cols="" rows=""></textarea>
+                                </div>
+                                <div class="quickpostbuttons">
+                                    <button class="publish">
+                                        <img src="img/checkmark-for-verification.png" alt="">
+                                        <h6>Publish</h6>
+                                    </button>
+                                    <button class="reset">
+                                        <img src="img/refresh.png" alt="">
+                                        <h6>Reset</h6>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="middle1">
+                            <div class="info-head">
+                                <div class="media-container">
+                                    <h2>
+                                        <strong>Latest</strong>News</h2>
+                                </div>
+                                <!-- <div class="btn-groups"> -->
+                                <button>
+                                    <img src="img/settings-work-tool.png" alt="">
+                                </button>
+                                <!-- </div> -->
+
+                            </div>
+                            <div class="mainarea">
+                                <div class="leftarea">
+                                    <ul>
+                                        <li>
+                                            <small>just now</small>
+                                            <div class="circles">
+                                                <img src="img/aeroplane-.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <small>5 min ago</small>
+                                            <div class="circles">
+                                                <img src="img/file.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <small>3 hours ago</small>
+                                            <div class="circles">
+                                                <img src="img/juice.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <small>yesterday</small>
+                                            <div class="circles">
+                                                <img src="img/fork-and-knife-silhouette.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <small>2 days ago</small>
+                                            <div class="circles">
+                                                <img src="img/smiling-emoticon-square-face.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <small>1 week ago</small>
+                                            <div class="circles">
+                                                <img src="img/pencil-edit-button.png" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="rightarea">
+                                    <ul>
+                                        <li>
+                                            <small>Jordan Carter</small>
+                                            <p>The trip was an amazing and a life changing experience!!
+                                            </p>
+                                            <div class="read-article">
+                                                <img src="img/blank-document.png" alt="">
+                                                <small> Read the article</small>
+                                            </div>
+                                            <div class="imgcollect">
+                                                <img id="myImg5" src="img/photo1.jpg" alt="">
+                                                <div id="myModal" class="modal">
+                                                    <span class="close">&times;</span>
+                                                    <img class="modal-content" id="img01">
+                                                    <div id="caption"></div>
+                                                </div>
+                                                <img id="myImg6" src="img/photo22.jpg" alt="">
+                                                <div id="myModal" class="modal">
+                                                    <span class="close">&times;</span>
+                                                    <img class="modal-content" id="img01">
+                                                    <div id="caption"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <small>Administrator</small>
+                                            <p>
+                                                <strong> Free courses</strong> for all our customers at A1 Conference Room - 9:00
+                                                <strong>am</strong> tomorrow</p>
+                                        </li>
+                                        <li>
+                                            <small>Ella Winter
+                                            </small>
+                                            <p>
+                                                <strong>Happy Hour!</strong> Free drinks at
+                                                <a id="linking" href="">Cafe-Bar</a> all day long!</p>
+                                            <div id="map"></div>
+                                        </li>
+                                        <li>
+                                            <small>Patricia Woods</small>
+                                            <p>Today I had the lunch of my life! It was delicious!</p>
+                                            <div>
+                                                <img id="myImg4" src="img/photo23.jpg" alt="">
+                                                <div id="myModal" class="modal">
+                                                    <span class="close">&times;</span>
+                                                    <img class="modal-content" id="img01">
+                                                    <div id="caption"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <small>Administrator</small>
+                                            <p>To thank you all for your support we would like to let you know that you
+                                                <br> will receive free feature updates for life! You are awesome!</p>
+                                        </li>
+                                        <li>
+                                            <small>Nicola Ward</small>
+                                            <p>Consectetur adipiscing elit. Maecenas ultrices, justo vel imperdiet gravida,
+                                                urna ligula hendrerit nibh, ac cursus nibh sapien in purus. Mauris tincidunt
+                                                tincidunt turpis in porta. Integer fermentum tincidunt auctor. Vestibulum
+                                                ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget
+                                                dictum leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate.</p>
+                                            <p>Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et
+                                                lectus? Etiam egestas fringilla enim, id convallis lectus laoreet at. Fusce
+                                                purus nisi, gravida sed consectetur ut, interdum quis nisi. Quisque egestas
+                                                nisl id lectus facilisis scelerisque? Proin rhoncus dui at ligula vestibulum
+                                                ut facilisis ante sodales! Suspendisse potenti. Aliquam tincidunt sollicitudin
+                                                sem nec ultrices. Sed at mi velit. Ut egestas tempor est, in cursus enim
+                                                venenatis eget! Nulla quis ligula ipsum.</p>
+                                            <br>
+                                            <button>View more..</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="dashboard2-footer">
+                <small>2014-18 ©</small>
+                <span>ProUI 3.8</span>
+                <div class="pull-right center">
+                    <small>Crafted with</small>
+                    <img src="img/heart1.png" alt="">
+                    <small class="small-left">by</small>
+                    <span>pixelcave</span>
+                </div>
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="bootstrap/bootstrap-4.1.0/dist/js/bootstrap.min.js"></script>
+            <script>
+                window.onload = function () {
+
+                    var chart = new CanvasJS.Chart("chartContainer", {
+                        theme: "light2", // "light1", "light2", "dark1", "dark2"
+                        animationEnabled: true,
+                        zoomEnabled: true,
+                        title: {
+                            text: ""
+                        },
+                        data: [{
+                            type: "area",
+                            dataPoints: []
+                        }]
+                    });
+
+                    addDataPoints(1000);
+                    chart.render();
+
+                    function addDataPoints(noOfDps) {
+                        var xVal = chart.options.data[0].dataPoints.length + 1,
+                            yVal = 100;
+                        for (var i = 0; i < noOfDps; i++) {
+                            yVal = yVal + Math.round(5 + Math.random() * (-5 - 5));
+                            chart.options.data[0].dataPoints.push({
+                                x: xVal,
+                                y: yVal
+                            });
+                            xVal++;
+                        }
+                    }
+
+                }
+                var map;
+
+                function initMap() {
+                    map = new google.maps.Map(document.getElementById('map'), {
+                        center: {
+                            lat: 40.37767,
+                            lng: 49.89201
+                        },
+                        zoom: 8
+                    });
+                }
+
+                $(document).ready(function () {
+                    $(".dashboard2").addClass("border-color");
+                    // $(".dashboard").css({
+                    //     "border-left": "none !important",
+                    //     "background": " #394263 !important"
+                    // })
+
+                });
+                // modals
+                var modal4 = document.getElementById('myModal');
+                var img4 = document.getElementById('myImg4');
+                var modalImg4 = document.getElementById("img01");
+                var captionText4 = document.getElementById("caption");
+                img4.onclick = function () {
+                    modal4.style.display = "block";
+                    modalImg4.src = this.src;
+                    captionText4.innerHTML = this.alt;
+                }
+                var span4 = document.getElementsByClassName("close")[0];
+
+                span4.onclick = function () {
+                    modal4.style.display = "none";
+                }
+                //
+                var modal5 = document.getElementById('myModal');
+                var img5 = document.getElementById('myImg5');
+                var modalImg5 = document.getElementById("img01");
+                var captionText5 = document.getElementById("caption");
+                img5.onclick = function () {
+                    modal5.style.display = "block";
+                    modalImg5.src = this.src;
+                    captionText5.innerHTML = this.alt;
+                }
+                var span5 = document.getElementsByClassName("close")[0];
+
+                span5.onclick = function () {
+                    modal5.style.display = "none";
+                }
+                //
+                var modal6 = document.getElementById('myModal');
+                var img6 = document.getElementById('myImg6');
+                var modalImg6 = document.getElementById("img01");
+                var captionText6 = document.getElementById("caption");
+                img6.onclick = function () {
+                    modal6.style.display = "block";
+                    modalImg6.src = this.src;
+                    captionText6.innerHTML = this.alt;
+                }
+                var span6 = document.getElementsByClassName("close")[0];
+
+                span6.onclick = function () {
+                    modal6.style.display = "none";
+                }
+
+                let check = true;
+                let check1 = true;
+                // changing colors
+                $(".color1").on("click", function () {
+                    $("#test").attr("href", "second.css");
+                    $(".dashboard").removeClass("border-color1");
+                    $(".dashboard2").addClass("border-color1");
+                })
+                $(".color2").on("click", function () {
+                    $("#test").attr("href", "third.css");
+                    $(".dashboard").removeClass("border-color2");
+                    $(".dashboard2").addClass("border-color2");
+                })
+                $(".color3").on("click", function () {
+                    $("#test").attr("href", "fourth.css");
+                    $(".dashboard").removeClass("border-color3");
+                    $(".dashboard2").addClass("border-color3");
+                })
+                $(".color4").on("click", function () {
+                    $("#test").attr("href", "fifth.css");
+                    $(".dashboard").removeClass("border-color4");
+                    $(".dashboard2").removeClass("border-color");
+                    $(".dashboard2").addClass("border-color4");
+                })
+                // changing locations   
+                $(".dashboard2").on("click", function () {
+                    $(location).attr('href', 'dashboard2.html');
+
+                })
+                $(".dashboard").on("click", function () {
+                    $(location).attr('href', 'index.html');
+
+                })
+                $(".darkslategray").on("click", function () {
+                    $(location).attr('href', 'index.html');
+
+                })
+                $(".social").on("click", function () {
+
+                    $(location).attr('href', 'social.html');
+                    // $(".dashboard2").css({
+                    //     "border-left": "5px solid #1bbae1",
+                    //     "background": "#282e45"
+                    // });
+                    // $(".dashboard").css({
+                    //     "border-left": "none !important",
+                    //     "background": " #394263 !important"
+                    // })
+
+                })
+
+                $("#e-commerce").on("click", function () {
+                    if (check) {
+                        $(window).scrollTop(175);
+                        $("#ecommercecomponents").slideDown(400);
+                        $(".widgetkit").css("margin-top", "241px");
+                        $(".backarrow").css("transform", "rotate(270deg)")
+                        check = false;
+                    } else {
+                        $(window).scrollTop(130);
+                        $("#ecommercecomponents").slideUp(400, function () {
+                            $(".backarrow").css("transform", "rotate(0deg)")
+                            $(".widgetkit").css("margin-top", "0px");
+                            check = true;
+                        });
+                    }
+                })
+                $("#userinterface").on("click", function () {
+                    if (check1) {
+                        $(window).scrollTop(470);
+                        $("#ecommercecomponents1").slideDown(400);
+                        $(".developkit").css("margin-top", "360px");
+                        $(".backarrow1").css("transform", "rotate(270deg)")
+                        check1 = false
+                    } else {
+                        $(window).scrollTop(420);
+                        $("#ecommercecomponents1").slideUp(400, function () {
+                            $(".backarrow1").css("transform", "rotate(0deg)")
+                            $(".developkit").css("margin-top", "0px");
+                            check1 = true;
+                        });
+                    }
+                })
+                $(".settings").on("click", function () {
+                    if (document.querySelector(".settingsmodal").style.visibility == "visible") {
+                        $(this).removeAttr("style");
+                        $(".settingsmodal").css("visibility", "hidden");
+                        return false;
+
+                    } else {
+                        document.querySelector(".settings").style.backgroundColor = document.querySelector(
+                            ".settingsbutton").backgroundColor;
+                        $(".settingsmodal").css("visibility", "visible");
+                    }
+
+                })
+                $("#forms").on("click", function () {
+                    if (check1) {
+                        $(window).scrollTop(500);
+                        $("#ecommercecomponents2").slideDown(400);
+                        $(".developkit").css("margin-top", "160px");
+                        $(".backarrow2").css("transform", "rotate(270deg)")
+                        check1 = false
+                    } else {
+                        $(window).scrollTop(440);
+                        $("#ecommercecomponents2").slideUp(400, function () {
+                            $(".backarrow2").css("transform", "rotate(0deg)")
+                            $(".developkit").css("margin-top", "0px");
+                            check1 = true;
+                        });
+                    }
+                })
+                $("#tables").on("click", function () {
+                    if (check1) {
+                        $(window).scrollTop(540);
+                        $("#ecommercecomponents3").slideDown(400);
+                        $(".developkit").css("margin-top", "120px");
+                        $(".backarrow3").css("transform", "rotate(270deg)")
+                        check1 = false
+                    } else {
+                        $(window).scrollTop(485);
+                        $("#ecommercecomponents3").slideUp(400, function () {
+                            $(".backarrow3").css("transform", "rotate(0deg)")
+                            $(".developkit").css("margin-top", "0px");
+                            check1 = true;
+                        });
+                    }
+                })
+                $("#icons").on("click", function () {
+                    if (check1) {
+                        $(window).scrollTop(590);
+                        $("#ecommercecomponents4").slideDown(400);
+                        $(".developkit").css("margin-top", "80px");
+                        $(".backarrow4").css("transform", "rotate(270deg)")
+                        check1 = false
+                    } else {
+                        $(window).scrollTop(525);
+                        $("#ecommercecomponents4").slideUp(400, function () {
+                            $(".backarrow4").css("transform", "rotate(0deg)")
+                            $(".developkit").css("margin-top", "0px");
+                            check1 = true;
+                        });
+                    }
+                })
+                $("#layouts").on("click", function () {
+                    if (check1) {
+                        $(window).scrollTop(630);
+                        $("#ecommercecomponents5").slideDown(400);
+                        $(".developkit").css("margin-top", "560px");
+                        $(".backarrow5").css("transform", "rotate(270deg)")
+                        check1 = false
+                    } else {
+                        $(window).scrollTop(575);
+                        $("#ecommercecomponents5").slideUp(400, function () {
+                            $(".backarrow5").css("transform", "rotate(0deg)")
+                            $(".developkit").css("margin-top", "0px");
+                            check1 = true;
+                        });
+                    }
+                })
+                $("#pages").on("click", function () {
+                    if (check1) {
+                        $(window).scrollTop(710);
+                        $("#ecommercecomponents6").slideDown(400);
+                        $(".activity").css("margin-top", "800px");
+                        $(".backarrow6").css("transform", "rotate(270deg)")
+                        check1 = false
+                    } else {
+                        $(window).scrollTop(650);
+                        $("#ecommercecomponents6").slideUp(400, function () {
+                            $(".backarrow6").css("transform", "rotate(0deg)")
+                            $(".activity").css("margin-top", "0px");
+                            check1 = true;
+                        });
+                    }
+                })
+                $("#errorlist").on("click", function () {
+                    if (check1) {
+                        $("#errors").slideUp(400);
+                        $(".backarrow7").css("transform", "rotate(0deg)")
+                        $("#cmp1").css("margin-top", "0px");
+                        check1 = false;
+                    } else {
+                        $("#errors").slideDown(400);
+                        $(".backarrow7").css("transform", "rotate(270deg)")
+                        $("#cmp1").css("margin-top", "235px");
+                        check1 = true;
+                    }
+                })
+                $("#cmp1").on("click", function () {
+                    if (check1) {
+                        $("#getstarted").slideUp(400);
+                        $(".backarrow9").css("transform", "rotate(0deg)")
+                        $("#cmp2").css("margin-top", "0px");
+                        check1 = false;
+                    } else {
+                        $("#getstarted").slideDown(400);
+                        $(".backarrow9").css("transform", "rotate(270deg)")
+                        $("#cmp2").css("margin-top", "75px");
+                        check1 = true;
+                    }
+                })
+                $("#cmp3").on("click", function () {
+                    if (check1) {
+                        $("#elearning").slideUp(400);
+                        $(".backarrow10").css("transform", "rotate(0deg)")
+                        $("#cmp4").css("margin-top", "0px");
+                        check1 = false;
+                    } else {
+                        $("#elearning").slideDown(400);
+                        $(".backarrow10").css("transform", "rotate(270deg)")
+                        $("#cmp4").css("margin-top", "115px");
+                        check1 = true;
+                    }
+                })
+                $("#cmp4").on("click", function () {
+                    if (check1) {
+                        $("#messages").slideUp(400);
+                        $(".backarrow11").css("transform", "rotate(0deg)")
+                        $("#cmp5").css("margin-top", "0px");
+                        check1 = false;
+                    } else {
+                        $("#messages").slideDown(400);
+                        $(".backarrow11").css("transform", "rotate(270deg)")
+                        $("#cmp5").css("margin-top", "115px");
+                        check1 = true;
+                    }
+                })
+                $("#cmp6").on("click", function () {
+                    if (check1) {
+                        $("#login").slideUp(400);
+                        $(".backarrow12").css("transform", "rotate(0deg)")
+                        $("#components").css("margin-top", "0px");
+                        $(".activity").css("margin-top", "798px")
+                        check1 = false;
+                    } else {
+                        $("#login").slideDown(400);
+                        $(".backarrow12").css("transform", "rotate(270deg)")
+                        $("#components").css("margin-top", "355px");
+                        $(".activity").css("margin-top", "1171px")
+                        check1 = true;
+                    }
+                })
+                $("#cmp7").on("click", function () {
+                    if (check1) {
+                        $("#levels").slideUp(400);
+                        $(".backarrow13").css("transform", "rotate(0deg)")
+                        $("#cmp8").css("margin-top", "0px");
+                        check1 = false;
+                    } else {
+                        $("#levels").slideDown(400);
+                        $(".backarrow13").css("transform", "rotate(270deg)")
+                        $("#cmp8").css("margin-top", "75px");
+                        check1 = true;
+                    }
+                })
+                $("#components").on("click", function () {
+                    if (check1) {
+                        $("#ecommercecomponents7").slideDown(400);
+                        $(".activity").css("margin-top", "318px");
+                        $(".backarrow8").css("transform", "rotate(270deg)")
+                        check1 = false
+                    } else {
+                        $("#ecommercecomponents7").slideUp(400, function () {
+                            $(".backarrow8").css("transform", "rotate(0deg)")
+                            $(".activity").css("margin-top", "0px");
+                            check1 = true;
+                        });
+                    }
+                })
+                $(".rigthpart").on("click", function () {
+                    if (check) {
+                        $(".openmodal").css("display", "block");
+                        document.querySelector(".rigthpart").style.backgroundColor = document.querySelector(
+                                ".four").style
+                            .backgroundColor;
+                        check = false;
+                    } else {
+                        $(".openmodal").css("display", "none");
+                        $(this).removeAttr("style");
+                        check = true;
+                    }
+
+                })
+                $(".share").on("click", function () {
+                    if (check) {
+                        $(".chatui").css("display", "block");
+                        $(".darkslategray").css({
+                            "position": "relative",
+                            "right": "72px"
+                        });
+                        $(".ghostwhite").css({
+                            "position": "relative",
+                            "right": "180px"
+                        })
+                        $(".search").css("left", "114px");
+                        $(".rigthpart").css("right", "179px");
+                        $(".right1").css({
+                            "position": "relative",
+                            "right": "180px"
+                        });
+                        $(".share").css("right", "250px");
+                        check = false;
+                    } else {
+                        $(".chatui").css("display", "none");
+                        $(".darkslategray").css({
+                            "position": "relative",
+                            "right": "0px"
+                        });
+                        $(".ghostwhite").css({
+                            "position": "relative",
+                            "right": "0px"
+                        })
+                        $(".search").css("left", "293px");
+                        $(".rigthpart").css("right", "0px");
+                        $(".right1").css({
+                            "position": "relative",
+                            "right": "0px"
+                        });
+                        $(".share").css("right", "71px");
+                        check = true;
+                    }
+
+                })
+                $(".search").on("click", function () {
+                    // $(".search").toggle();
+
+                    if (document.querySelector(".icon").style.display == "none") {
+                        $(".icon").css("display", "block");
+                        $(".settings").css("display", "block");
+                        $(".share").css("display", "block");
+                        $(".rigthpart").css("display", "block");
+                        $(".search").css({
+                            "left": "293px",
+                            "width": "100px"
+                        })
+                        return false;
+                    } else {
+                        $(".icon").css("display", "none");
+                        $(".settings").css("display", "none");
+                        $(".share").css("display", "none");
+                        $(".rigthpart").css("display", "none");
+                        $(".search").css({
+                            "left": "198px",
+                            "width": "1321px"
+                        })
+
+
+                    }
+
+                })
+                $(".icon").on("click", function () {
+
+                })
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqZdlwyxH7zMv4O-8QrAHqsmdAHwMEECE&callback=initMap">
+            </script>
+            </script>
+</body>
+
+</html>
